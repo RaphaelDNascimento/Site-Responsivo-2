@@ -75,17 +75,46 @@ main{
     background-color: white;
     margin: auto;
     margin-bottom:1em ;
+    margin-top: 0.2em;
     border-radius: 0px 0px 10px 10px;
     min-width: 300px;
     max-width: 1000px;
     padding:1.25em ;
     box-shadow: 0px 0px 0.8em black;
 }
+
+main  p{
+    padding: 15px 0px 15px 0px;
+    text-align: justify;
+    text-indent: 30px;
+    line-height: 2em;
+    font-size: 0.8em;
+}
+main strong{
+    color: var(--core4);
+    padding: 2px 2px;
+    
+}
+
+main a{
+    background-color: var(--core1);
+    color: var(--core4);
+    padding: 2px 6px;
+    font-weight: bold;
+    text-decoration: none;
+}
+main a:hover{
+    text-decoration: underline;
+    
+
+
+}
+
 main img{
     width: 100%;
 }
 main img.pequena{
-    width:50%;
+    max-width:350px;
     display: block;
     margin:auto;
 }
@@ -98,9 +127,11 @@ main  h1{
 main h2{
     color: var(--core4);
     font-family: var(--fonte-android);
+    background-image: linear-gradient(to right,var(--core1),transparent);
+    padding-left: 1em;
 }
 
 footer{
     background-color: var(--core4);
-    color: white;
+    color: var(--core0);
 }
